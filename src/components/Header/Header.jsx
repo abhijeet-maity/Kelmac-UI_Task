@@ -1,5 +1,4 @@
 import React from "react";
-import Frame from "../../images/Frame 22.png";
 import "./Header.css";
 import curve from "../../images/Vector 1.png";
 import icon from "../../images/icons8-whatsapp 2.png";
