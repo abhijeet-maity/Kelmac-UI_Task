@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.btn-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 16px;
+}
+.btn-section button:nth-of-type(1) {
+  background-color: #6782ff;
+  padding: 12px 35px;
+  border-radius: 8px;
+  border: none;
+  color: aliceblue;
+}
+.btn-section button:nth-of-type(2) {
+  display: flex;
+  align-items: center;
+  padding: 5px 12px;
+  background-color: white;
+  color: #6782ff;
+  border: 1px solid #d3e6fd;
+  border-radius: 8px;
+}
+.whatsapp {
+  width: 24px;
+  height: 24px;
+}
