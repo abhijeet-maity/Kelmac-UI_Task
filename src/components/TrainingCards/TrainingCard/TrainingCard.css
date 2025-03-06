@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card {
+    width: 288px;
+    height: 403px;
+    padding: 20px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 12px;
+    border: 1px solid #D6DDEB;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: pink; */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-header p {
+    color: #3A5476;
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-header img {
+    width: 63px;
+    height: 63px;
+}
+.card-course-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.card-course-name h4, p{
+    text-align: left;
+    /* white-space: nowrap; */
+}
+.card-course-name h4 {
+    font-size: 14px;
+    font-weight: 600;
+}
+.card-course-name p {
+    color: #7C8493;
+}
+/* .card-list-container {
+
+} */
+.card-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card-list h5{
+    font-size: 14px;
+    font-weight: 400;
+    color: #191722;
+}
+.card-list img{
+    width: 28px;
+    height: 28px;
+}
+.view-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.view-details h3 {
+    color: #191722;
+    font-size: 14px;
+    font-weight: 600;
+}
+.view-details img{
+    width: 12.45px;
+    height: 10px;
+}
+.card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15); 
+}

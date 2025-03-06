@@ -1,0 +1,11 @@
+.card-container {
+    width: 1200px;
+    height: 380px;
+    /* background-color: pink; */
+    position: absolute;
+    left: 100px; 
+    z-index: 2;
+    bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
