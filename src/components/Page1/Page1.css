@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#page1 {
+  max-width: 100vw;
+  height: 960px;
+  position: relative;
+  /* overflow: hidden; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#page1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/page1_bg.png");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  z-index: -1;
+}
+
+.details-section {
+  width: 60%;
+  height: 100%;
+  background-color: white;
+  padding-left: 120px;
+  padding-top: 80px;
+  text-align: left;
+}
+.details-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.details-section p {
+  color: #574f4a;
+  font-size: 16px;
+  line-height: 40px;
+}
+.details-section h3 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #191722;
+}
+.inner-details-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+.list p {
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #191722;
+  /* width: auto;  */
+  white-space: nowrap;
+}
+.top-training-text {
+  margin-top: 80px;
+}
+.top-training-text h6 {
+  font-size: 28px;
+  font-weight: 700;
+}
+.top-training-text img {
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.list-item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.list-item img {
+  width: 23px;
+  height: 24px;
+}
+.line {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+}
