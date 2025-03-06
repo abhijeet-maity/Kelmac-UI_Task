@@ -1,6 +1,8 @@
 import React from "react";
 import "./TrainingCardContainer.css";
 import TrainingCard from "../TrainingCard/TrainingCard.jsx";
+import leftArrow from "../../../images/card-list-icons/leftarrow.png";
+import rightArrow from "../../../images/card-list-icons/rightarrow.png";
 
 const TrainingCardContainer = () => {
   const cardContainer = [
@@ -47,16 +49,23 @@ const TrainingCardContainer = () => {
   ];
 
   return (
-    <section className="card-container">
-      {
-        cardContainer.map((card) => {
-          const {id, ...rest} = card;
-          return (
-            <TrainingCard key={card.id} {...rest}/>
-          )
-        })
-      }
-    </section>
+    <main>
+      <section className="card-container">
+        {cardContainer.map((card) => {
+          const { id, ...rest } = card;
+          return <TrainingCard key={card.id} {...rest} />;
+        })}
+      </section>
+      <div className="pagination">
+        <img src={leftArrow} alt="" />
+        <div className="pagination-circle"></div>
+        <div className="pagination-circle"></div>
+        <div className="pagination-circle"></div>
+        <div className="pagination-circle"></div>
+        <div className="pagination-circle"></div>
+        <img src={rightArrow} alt="" />
+      </div>
+    </main>
   );
 };
 
