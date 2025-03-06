@@ -5,6 +5,7 @@ import Header from "./components/Header/Header.jsx";
 import Page1 from "./components/Page1/Page1.jsx";
 import Page2 from "./components/Page2/Page2.jsx";
 import Page3 from "./components/Page3/Page3.jsx";
+import BenefitsPage from "./components/BenefitsPage/BenefitsPage.jsx";
 
 
 function App() {
@@ -23,8 +24,8 @@ function App() {
       <Header/>
       <Page1/>
       <Page3/>
-      {/* <TrainingCardContainer/> */}
       <Page2/>
+      <BenefitsPage/>
     </div>
   );
 }
