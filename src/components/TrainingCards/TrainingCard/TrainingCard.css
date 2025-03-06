@@ -6,11 +6,11 @@
 .card {
     width: 288px;
     height: 403px;
-    padding: 20px;
+    padding: 15px 20px;
     /* background-color: aquamarine; */
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 22px;
     border-radius: 12px;
     border: 1px solid #D6DDEB;
     background-color: white;
@@ -56,6 +56,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 7px;
 }
 .card-list h5{
     font-size: 14px;

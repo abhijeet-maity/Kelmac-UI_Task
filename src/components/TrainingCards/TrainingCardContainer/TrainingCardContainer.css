@@ -3,9 +3,37 @@
     height: 380px;
     /* background-color: pink; */
     position: absolute;
-    left: 100px; 
+    left: 120px; 
     z-index: 2;
-    bottom: 100px;
+    bottom: 15rem;
     display: flex;
     justify-content: space-between;
 }
+.pagination {
+    width: 184px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position:absolute;
+    bottom: 80px;
+    right: 190px;
+}
+.pagination img {
+    width: 36px;
+    height: 36px;
+}
+.pagination-circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    background-color: #CED6E0;
+    transition: transform 0.2s ease-in-out;
+}
+.pagination-circle:hover {
+    transform: scale(1.75);
+    background-color: #588DCF;
+}
+/* .pagination img:hover {
+    background-color: #588DCF;
+} */
