@@ -6,7 +6,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 20px 120px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* background-color: aquamarine; */
 }
