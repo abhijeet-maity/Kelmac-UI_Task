@@ -8,7 +8,8 @@
   max-width: 100vw;
   height: 1186px;
   background: linear-gradient(
-      to right,
+      to top right,
+      rgba(225, 0, 255, 0.947),
       rgb(162, 65, 207,0.9),
       rgb(53, 19, 83,0.9),
       rgb(53, 19, 83,0.9)
