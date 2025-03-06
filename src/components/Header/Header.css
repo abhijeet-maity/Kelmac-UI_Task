@@ -9,28 +9,30 @@
   height: 1186px;
   background: linear-gradient(
       to right,
-      rgba(59, 5, 79, 0.6),
-      rgba(20, 1, 27, 0.9)
+      rgb(162, 65, 207,0.9),
+      rgb(53, 19, 83,0.9),
+      rgb(53, 19, 83,0.9)
     ),
-    url("F:/Nimap_Infotech/Kelmac-UI_Task/src/images/image 9.png");
+    url("../../images/image\ 9.png");
   background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  position: relative;
 }
 .info-details {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 80px;
+  padding: 0px 120px;
 }
 
 form {
   width: 400px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 18px;
 }
 .input-field {
   display: flex;
@@ -75,6 +77,7 @@ form {
   color: White;
   background-color: #6782ff;
   border-radius: 6px;
+  border: none;
 }
 .inner-details-section {
   /* height: px; */
@@ -82,7 +85,7 @@ form {
   /* background-color: aqua; */
   text-align: left;
 }
-.inner-details-section h1 {
+.header-section h1 {
   font-size: 45px;
   font-weight: 700;
   line-height: 55px;
@@ -103,35 +106,38 @@ form {
   width: 170px;
   top: 50px;
 }
-.inner-details-section h4 {
+.header-section h4 {
   font-size: 20px;
   color: aliceblue;
   line-height: 36px;
   font-weight: 400;
 }
-.btn-section {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-top: 16px;
+.redifend-section {
+  width: 100%;
+  padding: 0px 120px;
+  /* background-color: #6782ff; */
+  text-align: left;
 }
-.btn-section button:nth-of-type(1){
-    background-color: #6782FF;
-    padding: 10px 18px;
-    border-radius: 8px;
-    border: none;
-    color: aliceblue;
+.line {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
 }
-.btn-section button:nth-of-type(2){
-    display: flex;
-    align-items: center;
-    padding: 5px 12px;
-    background-color: white;
-    color: #6782FF;
-    border: 1px solid #D3E6FD;
-    border-radius: 8px;
+.yellow-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  background-color: #FED639;
 }
-.whatsapp {
-    width: 24px;
-    height: 24px;
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: #FFF;
 }
+/*#A241CF #351353 #351353*/
