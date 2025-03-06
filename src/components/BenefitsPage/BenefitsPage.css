@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#benefit-page {
+    max-width: 100vw;
+    height: 80vh;
+    background-color: palegoldenrod;
+    padding: 100px;
+}

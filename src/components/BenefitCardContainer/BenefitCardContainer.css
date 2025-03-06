@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#benefit-card-container {
+    height: 435px;
+    background-color: pink;
+}
