@@ -6,6 +6,7 @@ import Page1 from "./components/Page1/Page1.jsx";
 import Page2 from "./components/Page2/Page2.jsx";
 import Page3 from "./components/Page3/Page3.jsx";
 import BenefitsPage from "./components/BenefitsPage/BenefitsPage.jsx";
+import FiveReasonPage from "./components/FiveReasonPage/FiveReasonPage.jsx";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Page3/>
       <Page2/>
       <BenefitsPage/>
+      <FiveReasonPage/>
     </div>
   );
 }
