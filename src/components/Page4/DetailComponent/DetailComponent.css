@@ -1,0 +1,25 @@
+.Page4-cards {
+    width: 433px;
+}
+.page4-card-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.Page4-cards img {
+    width: 48px;
+    height: 48px;
+}
+.page4-card-header h3 {
+    text-align: left;
+    color: #EFBF04;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.Page4-cards p {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
