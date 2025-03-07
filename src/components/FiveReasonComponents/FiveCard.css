@@ -1,0 +1,19 @@
+.Five-card {
+    width: 380px;
+    height: 435px;
+    border: 1px solid #DDDDDD;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 25px;
+    border-radius: 8px;
+}
+.Five-card h1 {
+    font-size: 208px;
+    color: #FFD019;
+}
+.Five-card h2 {
+    font-size: 30px;
+    color: #588DCF;
+    text-align: left;
+}
