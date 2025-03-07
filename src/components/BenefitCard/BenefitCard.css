@@ -1,6 +1,23 @@
 .benefit-card {
     width: 220px;
     height: 184px;
-    background-color: #45C6E8;
     border-radius: 16px;
+    padding: 20px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.5s ease-in-out;
+}
+.benefit-card p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;   
+}
+.benefit-card img {
+    width: 48px;
+    height: 48px;
+}
+.active {
+    height: 240px;
+    transform: translateY(40px);
 }

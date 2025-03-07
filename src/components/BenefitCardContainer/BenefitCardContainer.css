@@ -4,6 +4,27 @@
     box-sizing: border-box;
 }
 #benefit-card-container {
-    height: 435px;
-    background-color: pink;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#benefit-cards-array {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.benefit-description {
+    width: 100%;
+    height: 160px;
+    color: #FFF;
+    padding: 25px;
+    border-radius: 16px;
+    transition: backgroundColor 0.9s ease-in-out;
+}
+.benefit-description p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.5px;
 }
