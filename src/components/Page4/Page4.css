@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Page4 {
+    max-width: 100vw;
+    height: 810px;
+    background-color: #351953;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Page4-column {
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Page4-column h2 {
+    font-size: 44px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 48px;
+    color: #EFBF04;
+    text-align: left;
+}
