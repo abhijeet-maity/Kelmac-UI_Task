@@ -7,6 +7,8 @@ import Page2 from "./components/Page2/Page2.jsx";
 import Page3 from "./components/Page3/Page3.jsx";
 import BenefitsPage from "./components/BenefitsPage/BenefitsPage.jsx";
 import FiveReasonPage from "./components/FiveReasonPage/FiveReasonPage.jsx";
+import Page4 from "./components/Page4/Page4.jsx";
+import Page5 from "./components/Page5/Page5.jsx";
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
       <Page2/>
       <BenefitsPage/>
       <FiveReasonPage/>
+      <Page4/>
+      <Page5/>
     </div>
   );
 }
