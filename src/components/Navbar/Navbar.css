@@ -1,43 +1,63 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 120px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 120px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* background-color: aquamarine; */
 }
 .right-section {
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+}
+.phone-number {
     display: flex;
     align-items: center;
-    gap: 2.8rem;
+    gap: 10px;
+}
+.phone-number img {
+    width: 20px;
+    height: 20px;
 }
 .right-section h3 {
-    color: #588DCF;
+  color: #588dcf;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
 }
 ul {
-    display: flex;
-    gap: 2.5rem;
+  display: flex;
+  gap: 2.5rem;
 }
 ul li {
-    list-style-type: none;
-    
+  list-style-type: none;
 }
 ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 17px;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+ul li a:hover{
+  color: rgb(11, 67, 170);
 }
 .btn {
-    padding: 10px 16px;
-    background-color: #588DCF;
-    border: none;
-    border-radius: 8px;
-    color: white;
+  padding: 10px 16px;
+  background-color: #588dcf;
+  border: none;
+  border-radius: 8px;
+  color: white;
 }
 img {
-    width: 8rem;
+  width: 8rem;
+}
+.btn:hover {
+  background-color: rgb(11, 67, 170);
 }
