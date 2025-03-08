@@ -10,9 +10,9 @@
   background: linear-gradient(
       to top right,
       rgba(225, 0, 255, 0.947),
-      rgb(162, 65, 207,0.9),
-      rgb(53, 19, 83,0.9),
-      rgb(53, 19, 83,0.9)
+      rgb(162, 65, 207, 0.9),
+      rgb(53, 19, 83, 0.9),
+      rgb(53, 19, 83, 0.9)
     ),
     url("../../images/image\ 9.png");
   background-size: cover;
@@ -79,6 +79,10 @@ form {
   background-color: #6782ff;
   border-radius: 6px;
   border: none;
+  transition: background-color 0.2s ease-in-out;
+}
+.submit:hover {
+  background-color: rgb(11, 67, 170);
 }
 .inner-details-section {
   /* height: px; */
@@ -128,17 +132,20 @@ form {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  bottom: 50px;
-  right: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
   width: 60px;
   height: 60px;
   border-radius: 50px;
-  background-color: #FED639;
+  background-color: #fed639;
+  transition: all 0.3s ease-in-out;
+  z-index: 10;
 }
+
 .square {
   width: 30px;
   height: 30px;
-  background-color: #FFF;
+  /* background-color: #FFF;  */
 }
 /*#A241CF #351353 #351353*/

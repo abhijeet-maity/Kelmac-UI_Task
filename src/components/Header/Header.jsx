@@ -1,9 +1,11 @@
 import React from "react";
 import "./Header.css";
 import curve from "../../images/Vector 1.png";
+import square from "../../images/Square.png";
 import line from "../../images/Rectangle 6105.png";
 import Buttons from "../Button-Group/Button-group.jsx";
 const Header = () => {
+  
   return (
     <header className="header-section">
       <section className="info-details">
@@ -20,7 +22,7 @@ const Header = () => {
             need it, focused on what matters, and built to deliver measurable
             results
           </h4>
-          <Buttons/>
+          <Buttons />
         </div>
         <form action="">
           <div className="input-field">
@@ -109,9 +111,12 @@ const Header = () => {
           certification success faster.
         </h4>
       </section>
-      <div className="yellow-circle">
-        <div className="square"></div>
-      </div>
+    
+        <div className= "yellow-circle">
+          <img src={square} alt="" className="square" />
+        </div>
+    
+
       <img src={line} alt="" className="line" />
     </header>
   );
